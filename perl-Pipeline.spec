@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Pipeline
-Summary:	Pipeline - Generic pipeline interface
+Summary:	Pipeline - generic pipeline interface
 Summary(pl):	Pipeline - interfejs do obs³ugi potoków
 Name:		perl-%{pdir}
 Version:	3.12
@@ -15,14 +15,14 @@ Group:		Development/Languages/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/R/RC/RCLAMP/%{pdir}-%{version}.tar.gz
 # Source0-md5:	52cbc818aa18f7307dc00624741e5a73
 URL:		http://search.cpan.org/dist/Pipeline/
-BuildRequires:	perl-devel >= 1:5.8.0
-BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-Class-ISA >= 0.01
+BuildRequires:	perl-Data-Structure-Util >= 0.04
+BuildRequires:	perl-Data-UUID >= 0.01
 BuildRequires:	perl-Error >= 0.15
 BuildRequires:	perl-IO-Null >= 0.01
 BuildRequires:	perl-IO-String >= 0.01
-BuildRequires:	perl-Data-UUID >= 0.01
-BuildRequires:	perl-Data-Structure-Util >= 0.04
+BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -30,6 +30,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Pipelines are a mechanism to process data. They are designed to be
 plugged together to make fairly complex operations act in a fairly
 straightforward manner, cleanly, and simply.
+
+%description -l pl
+Modu³ Perla Pipelines stanowi mechanizm do przetwarzania danych.
+Zosta³ on zaprojektowany do w³±czania go w skomplikowane operacje,
+¿eby dzialaly one w sposób ³atwy, jasny i prosty.
 
 %prep
 %setup -q -n %{pdir}-%{version}
