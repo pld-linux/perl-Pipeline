@@ -34,7 +34,7 @@ straightforward manner, cleanly, and simply.
 %description -l pl
 Modu³ Perla Pipelines stanowi mechanizm do przetwarzania danych.
 Zosta³ on zaprojektowany do w³±czania go w skomplikowane operacje,
-¿eby dzialaly one w sposób ³atwy, jasny i prosty.
+¿eby dzia³a³y one w sposób ³atwy, jasny i prosty.
 
 %prep
 %setup -q -n %{pdir}-%{version}
