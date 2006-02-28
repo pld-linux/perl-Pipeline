@@ -10,7 +10,7 @@ Name:		perl-%{pdir}
 Version:	3.12
 Release:	1
 # same as perl
-License:	GPL v1+ or Artistic	
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/R/RC/RCLAMP/%{pdir}-%{version}.tar.gz
 # Source0-md5:	52cbc818aa18f7307dc00624741e5a73
