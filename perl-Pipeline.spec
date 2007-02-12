@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Pipeline
 Summary:	Pipeline - generic pipeline interface
-Summary(pl):	Pipeline - interfejs do obs≥ugi potokÛw
+Summary(pl.UTF-8):   Pipeline - interfejs do obs≈Çugi potok√≥w
 Name:		perl-%{pdir}
 Version:	3.12
 Release:	1
@@ -31,10 +31,10 @@ Pipelines are a mechanism to process data. They are designed to be
 plugged together to make fairly complex operations act in a fairly
 straightforward manner, cleanly, and simply.
 
-%description -l pl
-Modu≥ Perla Pipelines stanowi mechanizm do przetwarzania danych.
-Zosta≥ on zaprojektowany do w≥±czania go w skomplikowane operacje,
-øeby dzia≥a≥y one w sposÛb ≥atwy, jasny i prosty.
+%description -l pl.UTF-8
+Modu≈Ç Perla Pipelines stanowi mechanizm do przetwarzania danych.
+Zosta≈Ç on zaprojektowany do w≈ÇƒÖczania go w skomplikowane operacje,
+≈ºeby dzia≈Ça≈Çy one w spos√≥b ≈Çatwy, jasny i prosty.
 
 %prep
 %setup -q -n %{pdir}-%{version}
