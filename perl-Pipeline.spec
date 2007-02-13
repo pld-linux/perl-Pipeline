@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Pipeline
 Summary:	Pipeline - generic pipeline interface
-Summary(pl.UTF-8):   Pipeline - interfejs do obsługi potoków
+Summary(pl.UTF-8):	Pipeline - interfejs do obsługi potoków
 Name:		perl-%{pdir}
 Version:	3.12
 Release:	1
