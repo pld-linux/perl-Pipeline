@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Pipeline
 Summary:	Pipeline - generic pipeline interface
 Summary(pl.UTF-8):	Pipeline - interfejs do obsługi potoków
